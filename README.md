@@ -20,7 +20,7 @@ limitations under the License.
 
 # betaincinv
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Inverse of the [incomplete beta function][incomplete-beta-function].
 
@@ -204,8 +204,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-betaincinv/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-betaincinv?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math-base-special-betaincinv.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math-base-special-betaincinv/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
