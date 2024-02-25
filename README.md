@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import betaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-betaincinv/tags). For example,
+
+```javascript
 import betaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@v0.2.1-esm/index.mjs';
 ```
 
@@ -132,7 +137,7 @@ y = betaincinv( 0.5, 2.0, 0.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import betaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@v0.2.1-esm/index.mjs';
+import betaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@esm/index.mjs';
 
 var i;
 var p;
