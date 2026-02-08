@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import betaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@esm/index.mjs';
+import betaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@v0.2.3-esm/index.mjs';
 ```
 
 #### betaincinv( p, a, b\[, upper] )
@@ -133,7 +133,7 @@ y = betaincinv( 0.5, 2.0, 0.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import betaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@esm/index.mjs';
+import betaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@v0.2.3-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
