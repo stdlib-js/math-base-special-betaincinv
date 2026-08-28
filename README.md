@@ -45,44 +45,43 @@ The inverse of the regularized [incomplete beta function][incomplete-beta-functi
 x = I^{-1}(p;\, a, b) \quad \text{such that} \quad I_x(a, b) = p
 ```
 
+<!-- <div class="equation" align="center" data-raw-text="x = I^{-1}(p;\, a, b) \quad \text{such that} \quad I_x(a, b) = p" data-equation="eq:betaincinv_function">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e35241e609f4ea7a5a1e367022755bde30d3119f/lib/node_modules/@stdlib/math/base/special/betaincinv/docs/img/equation_betaincinv_function.svg" alt="Inverse of the regularized incomplete beta function">
+    <br>
+</div> -->
+
 <!-- </equation> -->
 
 </section>
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-betaincinv
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-betaincinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var betaincinv = require( 'path/to/vendor/umd/math-base-special-betaincinv/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.betaincinv;
-})();
-</script>
+var betaincinv = require( '@stdlib/math-base-special-betaincinv' );
 ```
 
 #### betaincinv( p, a, b\[, upper] )
@@ -159,15 +158,10 @@ y = betaincinv( 0.5, 2.0, 0.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaincinv@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var betaincinv = require( '@stdlib/math-base-special-betaincinv' );
 
 var opts = {
     'dtype': 'float64'
@@ -177,11 +171,6 @@ var a = uniform( 100, 0.0, 10.0, opts );
 var b = uniform( 100, 0.0, 10.0, opts );
 
 logEachMap( 'p: %0.4f, \t a: %0.4f, \t b: %0.4f, \t f(p,a,b): %0.4f', p, a, b, betaincinv );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -280,11 +269,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta/tree/umd
+[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta
 
-[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc/tree/umd
+[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc
 
-[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln/tree/umd
+[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln
 
 <!-- </related-links> -->
 
