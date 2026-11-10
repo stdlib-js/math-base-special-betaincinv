@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-08)
+## Unreleased (2026-11-10)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2b568bd`](https://github.com/stdlib-js/stdlib/commit/2b568bd727177f95feae9cd3f940084030631b50) - **build:** compile C++ Boost benchmarks with C++14 [(#16556)](https://github.com/stdlib-js/stdlib/pull/16556) _(by Mara Averick)_
 -   [`4ff1612`](https://github.com/stdlib-js/stdlib/commit/4ff16126926ce482b471012528ec526d39cdd1d2) - **build:** upgrade Boost & compile C++ test fixture runners w C++14 [(#16545)](https://github.com/stdlib-js/stdlib/pull/16545) _(by Mara Averick)_
 -   [`a2a3770`](https://github.com/stdlib-js/stdlib/commit/a2a3770a05544594e5d67f3ef19ed440dd206c90) - **style:** add missing space [(#16061)](https://github.com/stdlib-js/stdlib/pull/16061) _(by Philipp Burckhardt)_
 -   [`80dc97e`](https://github.com/stdlib-js/stdlib/commit/80dc97e06d35d2939e14645ca83383e20b41e01d) - **chore:** clean-up _(by Athan Reines)_
